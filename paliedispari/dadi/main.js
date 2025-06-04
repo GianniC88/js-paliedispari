@@ -1,7 +1,7 @@
 //scelta se pari o dispari
 
 let userPariDispari = prompt('Scegli "PARI" o "DISPARI"').toLowerCase();
-let userSceltaTipo = "";
+
 //condizioni in base la scelta del giocatore
 
 //scelta numero giocatore
@@ -29,8 +29,8 @@ function isEven(numb) {
 //verdetto finale chi ha vinto
 let verdict = isEven(sum);
 
-if (verdict === userSceltaTipo) {
-  console.log("Hei vince");
+if (verdict === userPariDispari) {
+  console.log("Hai vinto");
 } else {
-  console.log("Hei Perso");
+  console.log("Hai perso");
 }
