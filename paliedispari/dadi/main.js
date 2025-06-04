@@ -1,7 +1,6 @@
-Contesto:
 //scelta se pari o dispari
 
-let userParioDispari = prompt('Scegli "PARI" o "DISPARI"').toLowerCase();
+let userPariDispari = prompt('Scegli "PARI" o "DISPARI"').toLowerCase();
 let userSceltaTipo = "";
 //condizioni in base la scelta del giocatore
 
@@ -35,5 +34,3 @@ if (verdict === userSceltaTipo) {
 } else {
   console.log("Hei Perso");
 }
-
-
